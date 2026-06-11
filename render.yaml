@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: agroconnect
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: GOV_DATA_API_KEY
+        sync: false

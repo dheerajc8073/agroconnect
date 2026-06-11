@@ -1,0 +1,10 @@
+{
+  "name": "Remix: AgroConnect",
+  "description": "A smart farming voice assistant and crop marketplace for Indian farmers.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
